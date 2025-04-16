@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+feedparser
+# google-generativeai # <-- Remove or comment out
+groq # <-- Add this
+moviepy
+python-dotenv
+Pillow
