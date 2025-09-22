@@ -5,7 +5,7 @@ import config # Project settings
 import news_fetcher
 import script_generator
 import video_creator
-
+#some important imports
 def sanitize_filename(filename):
     """Removes invalid characters for filenames."""
     # Remove non-alphanumeric characters (except hyphen and underscore)
