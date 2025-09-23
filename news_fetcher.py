@@ -26,7 +26,7 @@ def fetch_trending_rss(limit=5):
         except Exception as e:
             print(f"Warning: Could not fetch or parse feed {url}: {e}")
 
-    # Simple sort by published date if available (best effort)
+    # Simple sort by published date if available (best effort)  nice and understandbke
     try:
         articles.sort(key=lambda x: feedparser._parse_date(x['published']), reverse=True)
     except Exception:
