@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file yes do it its very important
 load_dotenv()
-
+# this is a small change for appmod
 # --- API Keys ---
 # Load Groq API Key (REQUIRED for script generation)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
