@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import config # Use config.py for settings
 #using confid is a good option always
+#chnaging for appmodai to check for sync issue
 def fetch_trending_rss(limit=5):
     """Fetches latest news entries from configured RSS feeds."""
     print(f"Fetching news from {len(config.RSS_FEEDS)} RSS feed(s)...")
