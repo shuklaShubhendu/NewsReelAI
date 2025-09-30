@@ -10,7 +10,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 if not GROQ_API_KEY:
     print("ERROR: GROQ_API_KEY not found in .env file. Get one from https://console.groq.com/keys")
     # exit() # Uncomment to force exit if key is missing
-
+#this is some change for the appmod backend
 # --- News Sources ---
 # Using RSS feeds is generally more reliable than scraping websites directly
 RSS_FEEDS = [
